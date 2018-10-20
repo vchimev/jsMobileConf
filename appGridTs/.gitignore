@@ -1,0 +1,8 @@
+# Files
+app/*.js
+
+# Folders
+hooks
+node_modules
+platforms
+

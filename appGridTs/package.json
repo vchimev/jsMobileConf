@@ -1,24 +1,25 @@
 {
-    "nativescript": {
-        "id": "org.nativescript.appGridTs",
-        "tns-android": {
-            "version": "5.0.0-rc-2018-10-18-172901-01"
-        },
-        "tns-ios": {
-            "version": "5.0.0-rc-2018-10-17-161243-01"
-        }
+  "nativescript": {
+    "id": "org.nativescript.appGridTs",
+    "tns-android": {
+      "version": "5.0.0-rc-2018-10-18-172901-01"
     },
-    "main": "app.js",
-    "description": "NativeScript Application",
-    "license": "SEE LICENSE IN <your-license-filename>",
-    "repository": "<fill-your-repository-here>",
-    "dependencies": {
-        "nativescript-theme-core": "~1.0.4",
-        "tns-core-modules": "^5.0.0-rc-2018-10-16-182917-07"
-    },
-    "devDependencies": {
-        "nativescript-dev-typescript": "~0.7.0",
-        "typescript": "~2.7.2"
-    },
-    "readme": "NativeScript Application"
+    "tns-ios": {
+      "version": "5.0.0-rc-2018-10-17-161243-01"
+    }
+  },
+  "main": "app.js",
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "nativescript-theme-core": "~1.0.4",
+    "tns-core-modules": "^5.0.0-rc-2018-10-16-182917-07"
+  },
+  "devDependencies": {
+    "nativescript-dev-typescript": "~0.7.0",
+    "nativescript-dev-webpack": "^0.17.0-rc.0",
+    "typescript": "~2.7.2"
+  },
+  "readme": "NativeScript Application"
 }
