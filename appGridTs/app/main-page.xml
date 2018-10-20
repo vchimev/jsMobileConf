@@ -4,13 +4,13 @@ of which NativeScript renders with a platform-specific iOS or Android native con
 You can find a full list of user interface components you can use in your app at
 https://docs.nativescript.org/ui/components.
 -->
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onPageLoaded" navigatingTo="navigatingTo" class="page">
     <!--
     The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
     http://docs.nativescript.org/ui/action-bar
     -->
     <Page.actionBar>
-        <ActionBar title="My App" icon="" class="action-bar">
+        <ActionBar title="jsMobileConf" icon="" class="action-bar">
         </ActionBar>
     </Page.actionBar>
     <!--
@@ -24,9 +24,37 @@ https://docs.nativescript.org/ui/components.
     core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
     class names available for styling your app at https://docs.nativescript.org/ui/theme.
     -->
-    <StackLayout class="p-20">
+    <!-- <StackLayout class="p-20">
         <Label text="Tap the button" class="h1 text-center"/>
         <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
         <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
-    </StackLayout>
+    </StackLayout> -->
+
+    <GridLayout id="grid" rows="*, *, *" columns="*, *, *">
+        <GridLayout row="0" col="0" backgroundColor="lightPink">
+            <Button text="row 0 col 0"></Button>
+        </GridLayout>
+        <GridLayout row="0" col="1" backgroundColor="lightGreen">
+            <Button text="row 0 col 1"></Button>
+        </GridLayout>
+        <GridLayout row="0" col="2" backgroundColor="lightBlue">
+            <Button text="row 0 col 2"></Button>
+        </GridLayout>
+        <!-- <GridLayout row="1" col="0" backgroundColor="lightYellow">
+            <Button text="row 1 col 0"></Button>
+        </GridLayout>
+        <GridLayout row="1" col="1" colSpan="2" backgroundColor="lightGray">
+            <Button text="row 1 col 1"></Button>
+        </GridLayout> -->
+        <!-- <Button text="12" row="1" col="2" colSpan="2"></Button> -->
+        <GridLayout row="2" col="0" backgroundColor="lightCoral">
+            <Button text="row 2 col 0"></Button>
+        </GridLayout>
+        <GridLayout row="2" col="1" backgroundColor="lightSeaGreen">
+            <Button text="row 2 col 1"></Button>
+        </GridLayout>
+        <GridLayout row="2" col="2" backgroundColor="lightSkyBlue">
+            <Button text="row 2 col 2"></Button>
+        </GridLayout>
+    </GridLayout>
 </Page>
