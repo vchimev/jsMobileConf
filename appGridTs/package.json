@@ -2,10 +2,10 @@
     "nativescript": {
         "id": "org.nativescript.appGridTs",
         "tns-android": {
-            "version": "4.2.0"
+            "version": "5.0.0-rc-2018-10-18-172901-01"
         },
         "tns-ios": {
-            "version": "4.2.0"
+            "version": "5.0.0-rc-2018-10-17-161243-01"
         }
     },
     "main": "app.js",
@@ -14,7 +14,7 @@
     "repository": "<fill-your-repository-here>",
     "dependencies": {
         "nativescript-theme-core": "~1.0.4",
-        "tns-core-modules": "~4.2.0"
+        "tns-core-modules": "^5.0.0-rc-2018-10-16-182917-07"
     },
     "devDependencies": {
         "nativescript-dev-typescript": "~0.7.0",
