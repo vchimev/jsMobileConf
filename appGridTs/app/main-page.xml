@@ -40,12 +40,12 @@ https://docs.nativescript.org/ui/components.
         <GridLayout row="0" col="2" backgroundColor="lightBlue">
             <Button text="row 0 col 2"></Button>
         </GridLayout>
-        <!-- <GridLayout row="1" col="0" backgroundColor="lightYellow">
+        <GridLayout row="1" col="0" backgroundColor="lightYellow">
             <Button text="row 1 col 0"></Button>
         </GridLayout>
         <GridLayout row="1" col="1" colSpan="2" backgroundColor="lightGray">
             <Button text="row 1 col 1"></Button>
-        </GridLayout> -->
+        </GridLayout>
         <!-- <Button text="12" row="1" col="2" colSpan="2"></Button> -->
         <GridLayout row="2" col="0" backgroundColor="lightCoral">
             <Button text="row 2 col 0"></Button>
